@@ -1,0 +1,1 @@
+Just a placeholder for the polling system once I break it out from living with the API backend.  The pollers should be independent of the API and a user should be able to have N+1 of them.  This code does not exist yet, other than tied to the API backend.
