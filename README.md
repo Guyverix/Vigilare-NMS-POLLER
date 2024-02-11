@@ -23,3 +23,25 @@ Welcome to Vigilare, an open-source fault management system designed to provide 
 - [ ] Code has yet to be written.
 - [ ] API has working pollers
 - [ ] This repository is specific to having N+1 pollers for the NMS to consume.
+
+# Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+    Fork the Project
+    Create your Feature Branch (git checkout -b feature/AmazingFeature)
+    Commit your Changes (git commit -m 'Add some AmazingFeature')
+    Push to the Branch (git push origin feature/AmazingFeature)
+    Open a Pull Request
+
+
+# License
+Distributed under the MIT License. See LICENSE for more information.
+
+# Contact
+
+Chris Hubbard – <chubbard@iwillfearnoevil.com>
+
+- [ ] Project Link: https://github.com/Guyverix/Vigilare-NMS-GUI
+- [ ] Project Link: https://github.com/Guyverix/Vigilare-NMS-API
+- [ ] Project Link: https://github.com/Guyverix/Vigilare-NMS-POLLER
