@@ -1,4 +1,5 @@
 # Vigilare
+![image](https://github.com/Guyverix/Vigilare-NMS-POLLER/assets/1209259/6fb39ffd-e540-41b9-8a24-91819aa157a0)
 
 Welcome to Vigilare, an open-source fault management system designed to provide comprehensive monitoring and alerting capabilities. Vigilare is built to ensure high availability and reliability of your systems, offering real-time insights and proactive fault resolution.
 
