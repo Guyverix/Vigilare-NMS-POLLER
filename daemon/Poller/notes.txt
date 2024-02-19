@@ -1,0 +1,21 @@
+Going forward this is going to be the standard daemon control.
+
+Likely this is going to require an ini or inc file in the future.
+values will be for:
+1) logging level
+2) log location
+3) API host
+4) API port
+5) nrpe path ( at minimum for the nrpe system, however suspect it will complain in snmp for example if missing)
+
+The cycle (-i) will always be required on CLI as we can have many different
+daemons running at the same time with different iteration cycles.
+
+We are also going to need to further test what the daemons do if the
+API goes down.  It should just keep running normally until the APIs recover.
+However this is going to need to be tested.
+
+Better validation of shutdown and startup is going to need to happen.
+Right now it works but is kinda clunky.
+
+This should be called at boot via systemd before it can be considered "ready"

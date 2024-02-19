@@ -1,0 +1,5 @@
+This is going to be the local area that will contain log files specific to this remote polling instance.
+
+Attempt to keep the filenames consistent as logrotate is working off of simple regexes.  You may
+need to adjust it if you use strange names for adhoc logs..
+

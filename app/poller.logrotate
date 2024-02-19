@@ -1,0 +1,26 @@
+PATH/logs/[a-z]*.log
+{
+        daily
+        missingok
+        rotate 3
+        compress
+        notifempty
+}
+
+PATH/TrapReceiver.log
+{
+        daily
+        missingok
+        rotate 3
+        compress
+        notifempty
+        create 644 www-data www-data
+        sharedscripts
+        prerotate
+                sudo chown www-data:www-data PATH/logs/TrapReceiver.log;
+        endscript
+       postrotate
+              service snmptrapd restart
+              chmod 666 PATH/logs/TrapReceiver.log;
+       endscript
+}
